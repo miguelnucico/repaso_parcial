@@ -1,11 +1,11 @@
-from ejercicios.ejercicio1_sueldo import leer_horas_trabajadas, calcular_sueldo, mostrar_sueldo
+from ejercicios.ejercicio1_taxi import leer_distancia, calcular_importe_viaje, mostrar_importe_viaje
 from ejercicios.ejercicio2_comision import leer_ventas_mes, calcular_comision, mostrar_total_a_pagar
 from ejercicios.ejercicio3_biblioteca import leer_dias_retraso, calcular_multa, mostrar_multa
 
 def menu():
     while True:
         print("Seleccione una opción:")
-        print("1. Calcular sueldo")
+        print("1. Calcular importe de viaje en taxi")
         print("2. Calcular comisión")
         print("3. Calcular multa por retraso de libro")
         print("4. Salir")
@@ -13,9 +13,9 @@ def menu():
         opcion = input("Ingrese el número de la opción deseada: ")
 
         if opcion == "1":
-            horas_trabajadas = leer_horas_trabajadas()
-            sueldo = calcular_sueldo(horas_trabajadas)
-            mostrar_sueldo(sueldo)
+            distancia = leer_distancia()
+            importe_viaje = calcular_importe_viaje(distancia)
+            mostrar_importe_viaje(importe_viaje)
         elif opcion == "2":
             ventas_mes = leer_ventas_mes()
             total_a_pagar = calcular_comision(ventas_mes)

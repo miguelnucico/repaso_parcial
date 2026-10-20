@@ -1,0 +1,11 @@
+Ingrese el número de la opción deseada: 1
+Ingrese la distancia recorrida en kilómetros: 5
+El importe del viaje es: $80.00
+
+Ingrese el número de la opción deseada: 2
+Ingrese el monto de ventas del mes: 5000
+El total a pagar es: $250.00
+
+Ingrese el número de la opción deseada: 3
+Ingrese la cantidad de días de retraso: 0
+La multa por retraso es: $0.00
